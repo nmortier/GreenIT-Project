@@ -1,0 +1,5 @@
+Private-Package: com.mysql.jdbc,\
+	org.GreenIT.pubVideo.impl,\
+	org.GreenIT.pubVideo.interfaces
+Export-Package: org.GreenIT.pubVideo.interfaces
+Bundle-Activator: org.GreenIT.pubVideo.impl.PubVideoActivator

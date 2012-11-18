@@ -1,0 +1,8 @@
+Private-Package: org.GreenIT.publicAPI.impl,\
+	org.GreenIT.publicAPI.interfaces
+Service-Component: org.GreenIT.publicAPI.impl.PublicAPI;\
+		org.GreenIt.pubVideo.interfaces.IPubVideo=org.GreenIT.pubVideo.interfaces.IPubVideo;\
+		org.GreenIT.pubText.interfaces.IPubText/bindPublicAPI/unbindPublicAPI=org.GreenIT.pubText.interfaces.IPubText;\
+		dynamic:=org.GreenIT.pubText.interfaces.IPubText
+Bundle-Activator: org.GreenIT.publicAPI.impl.publicAPIActivator
+Export-Package: org.GreenIT.publicAPI.interfaces;provide:=true

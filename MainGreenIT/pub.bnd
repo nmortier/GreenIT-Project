@@ -1,0 +1,3 @@
+Private-Package: org.GreenIT.pub.interfaces,\
+	com.mysql.jdbc
+Export-Package: org.GreenIT.pub.interfaces;provide:=true

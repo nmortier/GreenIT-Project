@@ -1,0 +1,2 @@
+Private-Package: org.GreenIT.controller.impl
+Bundle-Activator: org.GreenIT.controller.impl.ControllerActivator

@@ -1,0 +1,3 @@
+Private-Package: org.GreenIT.webapp
+Bundle-Activator: org.GreenIT.webapp.WebAppServlet
+Service-Component: *

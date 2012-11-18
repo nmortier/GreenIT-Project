@@ -1,0 +1,5 @@
+Private-Package: org.GreenIT.pubText.impl,\
+	org.GreenIT.pubText.interfaces,\
+	com.mysql.jdbc
+Bundle-Activator: org.GreenIT.pubText.impl.pubTextActivator
+Export-Package: org.GreenIT.pubText.interfaces

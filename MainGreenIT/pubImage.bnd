@@ -1,0 +1,5 @@
+Private-Package: org.GreenIT.pubImage.impl,\
+	org.GreenIT.pubImage.interfaces,\
+	com.mysql.jdbc
+Export-Package: org.GreenIT.pubImage.interfaces
+Bundle-Activator: org.GreenIT.pubImage.impl.PubImageActivator

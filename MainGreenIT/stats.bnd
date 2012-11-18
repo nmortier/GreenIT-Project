@@ -1,0 +1,5 @@
+Private-Package: com.mysql.jdbc,\
+	org.GreenIT.stats.impl,\
+	org.GreenIT.stats.interfaces
+Export-Package: org.GreenIT.stats.interfaces
+Bundle-Activator: org.GreenIT.stats.impl.StatsActivator
